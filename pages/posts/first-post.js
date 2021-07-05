@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function FirstPostzzz() {
   return (
     <>
-      <h1>First Post</h1>
+      <h1 className="text-3xl text-red-400">First Post</h1>
       <h2>
         <Link href="/">
           <a>Back to home</a>
